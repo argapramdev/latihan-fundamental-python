@@ -11,3 +11,10 @@ if ingin_cepat:
     print('jalan lurus aja ya!')
 else:
     print('belok kanan saja!')
+
+#perulangan dengan menggunakan fungsi
+jumlah_anak= 4
+
+for index_anak in range(1, jumlah_anak+1): #jumlah perulangan bila kita ingin 4 maka harus ditambah 1
+    print(f'haloo kid #{index_anak}')
+
